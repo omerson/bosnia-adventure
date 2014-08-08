@@ -1,0 +1,1493 @@
+/* CSS Document */
+
+
+html, body {
+	height:100%; /* gives layout 100% height */
+	overflow:inherit; /* triggers 100% height in Opera 9.5 */
+	
+	
+}
+
+body{
+	margin:0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	min-height:100%;
+	height:100%;
+	
+	
+}
+
+* {
+margin:0; /* zero out margin */ 
+padding:0; /* zero out padding */
+}
+
+* html { 
+height: 100%; /* IE6 treats height as min-height */
+}
+
+#container{
+	min-height:100%;
+	width:100%;
+	float:left;
+	height:1060px;
+	
+	
+}
+
+#caryCenter{
+	min-height:100%;
+	float:left;
+	height:100%;
+	width:910px;
+	background-color:#EFFBFB;
+}
+
+div#socialShare{
+	float:left;
+	margin-top:500px;
+	margin-left:10px;
+}
+
+div#topBg{
+	height:139px;	
+	width:910px;
+	margin:0 auto;
+	background-image:url(Images/topAll3.gif);	
+	background-repeat:no-repeat;
+}
+
+div.pager{
+	float:left;
+	margin-left:40%;
+	margin-top:10px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+}
+
+div#topContainer{	
+	margin-left:8px;	
+	width:900px;
+	float:left;
+}
+
+div#topContainerLeft{
+	padding-top:55px;
+	float:left;
+}
+
+div#topContainerRight{	
+	float:right;
+	width:382px;
+	height:139px;
+}
+
+div#logo{
+	height:60px;
+	width:500px;
+	background-image:url(Images/logo3.png);	
+	cursor:pointer;
+}
+
+div#destinations{
+	height:24px;
+	width:500px;	
+}
+
+div.dot{
+	width:27px;
+	height:24px;
+	background-image:url(Images/dotBlue.png);	
+	float:left;
+}
+
+div#neretva{
+	float:left;
+	height:24px;
+	width:80px;
+}
+
+div#una{	
+	float:left;
+	height:24px;
+	width:40px;
+}
+
+div.destinationItem{
+	padding-top:2px;
+	font-weight:bold;
+	cursor:pointer;
+	text-align:center;
+	float:left;
+	height:24px;
+	width:80px;
+
+}
+
+div#topMenu{
+	
+	height:39px;
+	width:385px;
+	float:right;
+	margin-top:1px;
+	margin-right:-3px;
+	background-image:url(Images/topMenuImgBlue.png);	
+}
+
+div#cornerContainer{
+	float:left;
+	width:100%;
+}
+
+div#cornerLeft{
+	height:40px;
+	width:40px;
+	float:left;
+	background-image:url(Images/redCornerLeftBlue.png);	
+}
+
+div#cornerRight{
+	height:40px;
+	width:39px;
+	float:right;
+	background-image:url(Images/redCornerRightBlue.png);	
+}
+
+div#menuCenter{
+	/*background-color:#ed1b23;
+	width:361px;*/
+	width:80%;
+	height:40px;
+	float:left;
+	margin-left:37px;
+	padding-top:3px;
+}
+
+div#topMenuBottom{
+	width:440px;
+	height:5px;
+	background-color:#ed1b23;
+	float:right;
+	
+}
+
+div.links{
+	color:#FFFFFF;	
+	/*font-size:18x;	
+	font-family:Verdana, Arial, Helvetica, sans-serif;*/
+	padding:5px;
+	float:left;
+	padding-left:13px;
+	padding-right:10px;
+	padding-top:10px;
+	cursor:pointer;
+}
+
+div#naslovna{
+	height:20px;
+	width:60px;
+	padding-left:0px;
+}
+
+div#onama{
+
+}
+
+div#kontakt{
+
+}
+
+div#prijavise{
+	padding-right:0px;
+}
+
+
+div#contactArea{	
+	height:62px;		
+	margin-top:37px;
+}
+
+div#contact{
+	width:180px;
+	height:50px;	
+	float:right;
+}
+
+div#pogledaj{
+	width:100%;
+	height:25px;
+	float:right;
+}
+
+
+div#pogledajImg{
+	width:25px;
+	height:25px;
+	float:right;
+	background-image:url(Images/icoUsluge2.jpg);	
+	cursor:pointer;
+}
+
+div#pozovi{
+	width:100%;
+	height:25px;	
+	float:right;
+}
+
+div.pozoviText{	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;	
+	font-weight:600;
+	color:#333333;
+	float:left;
+	padding-top:3px;
+}
+
+div#pozoviImg{
+	width:25px;
+	height:25px;	
+	float:right;
+	background-image:url(Images/icoContact2.jpg);	
+	cursor:pointer;
+}
+
+
+
+a:link, a:active, a:visited, a:hover {color: #000000; text-decoration: none; }
+
+#mainContainer {	
+	margin:0 auto;
+	width:910px;
+	height:1020px;
+	text-align:left;
+	min-height:100%;
+	/*background-color:#CCCCCC;*/
+}
+
+div#leftBorder{
+	background-image:url(Images/borderLeft.png);
+	background-repeat:repeat-y;
+	width:22px;
+	height:1060px;
+	margin-left:-22px;
+	float:left;
+	position:inherit;
+	z-index:0;	
+	min-height:955px;
+}
+
+td#leftBorder{
+	background-image:url(Images/borderLeft.png);
+	background-repeat:repeat-y;
+	width:22px;
+	height:100%;	
+	margin-left:-22px;
+	float:left;
+	position:inherit;
+	z-index:0;	
+	min-height:100%;
+}
+
+div#leftBorderCorner{
+	height:48px;
+	width:22px;	
+	background-image:url(Images/borderLeftCorner.png);
+}
+
+div#center{
+	float:right;
+	height:100%;
+}
+
+td#center{
+	float:right;
+	height:100%;
+}
+
+div#rightBorder{
+	background-image:url(Images/borderRight.png);
+	background-repeat:repeat-y;
+	width:38px;
+	height:1060px;
+	margin-right:-38px;		
+	float:right;
+	min-height:955px;
+}
+
+td#rightBorder{
+	background-image:url(Images/borderRight.png);
+	background-repeat:repeat-y;
+	width:38px;
+	height:100%;	
+	margin-right:-38px;		
+	float:right;
+	min-height:100%;
+}
+
+div#rightBorderCorner{
+	height:48px;
+	width:38px;
+	background-image:url(Images/borderRightCorner.png);
+}
+
+div#mainContainerArea
+{
+	width:910px;
+	height:100%;	
+	float:left;
+}
+
+div#mainMenu{
+	width:100%;
+	height:50px;
+	background-color:#363636;	
+}
+
+div.menuItem{
+	float:left;
+	color:#FFFFFF;
+	width:100px;	
+	margin-top:16px;		
+	font-size:12px;
+	cursor:pointer;
+}
+
+div#avantura, div#kultura{
+	width:78px;
+	margin-left:15px;
+}
+
+div#kulturniTurizam{
+	width:130px;
+}
+
+div#cityBreaks{
+	width:95px;
+}
+
+div#smjestaj{
+	width:75px;
+}
+
+div#rentacar{
+	width:90px;
+}
+
+div#combinovano{
+	width:143px;
+}
+
+div#pravilnik{
+	width:70px;
+}
+
+/*div#upute{
+	width:70px;
+}
+
+div#oprema{
+	width:85px;	
+}
+
+div#onama{
+	width:90px;
+}
+
+div#cijene{
+	width:65px;	
+}*/
+
+div#mainMenuRight{
+	float:right;
+	width:150px;
+	height:100%;		
+}
+
+div#mainMenuLeft{
+	float:left;
+	width:700px;
+	height:100%;	
+}
+
+div#register{
+	float:right;
+	color:#FFFFFF;	
+	font-size:15px;
+	margin-top:16px;
+	margin-right:15px;
+	cursor:pointer;
+}
+
+div#contentTop{
+	width:100%;
+	height:397px;
+	/*background-color:#b7e8ff;*/
+		background-color:#CCCCCC;
+}
+
+div#mainArticle{
+	float:left;
+	width:910px;
+	height:100%;
+	/*background-image:url(Images/Doboj-Bosnia-Herzegovina-11495130522.jpg);*/
+	background-repeat:no-repeat;
+}
+
+div#navigation{
+	width:193px;
+	height:31px;	
+	margin:20px;
+	float:left;
+}
+
+div#navigationLeft{
+	width:26px;
+	height:31px;
+	background-image:url(Images/navigationLeft.png);
+	float:left;
+	cursor:pointer;
+}
+
+div.navigationDelimiter{
+	height:100%;
+	width:15px;
+	float:left;
+}
+
+div.navigationItem{
+	height:31px;
+	width:13px;
+	float:left;
+	background-image:url(Images/navigationItem.png);
+	cursor:pointer;
+}
+
+div.navigationItemActive{
+	height:31px;
+	width:24px;
+	float:left;
+	background-image:url(Images/navigationItemActive.png);
+	cursor:auto;
+}
+
+div#navigationRight{
+	width:27px;
+	height:31px;
+	background-image:url(Images/navigationRight.png);
+	float:left;
+	cursor:pointer;
+}
+
+div#rotatingMenu{
+	float:right;
+	height:381px;
+	width:150px;
+	background-color:#CC0000;
+}
+
+div.rotatingNews{
+	height:76.2px;
+	width:150px;	
+}
+
+div#news1{
+	background-color:#00FF33;
+}
+
+div#news2{
+	background-color:#FF6600;
+}
+
+div#news3{
+	background-color:#CC3333;
+}
+
+div#news4{
+	background-color:#993399;
+}
+
+div#news5{
+	background-color:#FFFF66;
+}
+
+div#zahvalnica{
+	float:right;	
+	width:90%;
+	background-image:url(Images/zahvalnost.png);
+	margin-right:17px;
+}
+
+div#pojedinacnaIpresija{
+	width:100%;	
+	color:#221e1f;
+	margin-top:320px;
+}
+
+div#naslovImpresije{
+	width:180px;	
+	margin-left:10px;
+	font-size:14px;	
+	margin-top:50px;
+}
+
+div#imePosjetitelja{	
+	float:left;
+	font-weight:bold;
+}
+
+div#sadrzajIzjave{
+	margin:10px;
+	font-size:12px;
+	text-align:justify;
+	margin-bottom:0px;
+	
+}
+
+div#pogledajJos{
+	margin-left:10px;
+	margin-top:0px;
+	width:190px;
+	cursor:pointer;
+	font-weight:bold;
+	font-size:12px;
+}
+
+div#title{
+	float:left;
+	height:185px;
+	width:420px;
+	background-image:url(Images/titleGrey.png);
+	margin-top:195px;
+	color:#FFFFFF;	
+}
+
+div#titleLeft{
+	float:left;
+	width:300px;
+	padding:15px;	
+}
+
+div#titleRight{
+	float:right;	
+}
+
+div#facebook{
+	/*width:100%;*/
+	margin-right:40px;
+	margin-top:25px;
+	float:left;
+}
+
+div#facebookImg{
+	width:100px;
+	height:38px;
+	background-image:url(Images/facebook2.jpg);
+	cursor:pointer;
+}
+
+div#twitter{
+	margin-left::10px;
+	/*width:100%;*/
+	margin-top:25px;
+	float:left;
+}
+
+div#twitterImg{
+	width:100px;
+	height:38px;
+	background-image:url(Images/twitter.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	margin-top:5px;
+}
+
+div#titleHeader{
+	float:none;
+	font-size:36px;
+}
+
+div#titleHeader2{
+	float:none;
+	font-size:17px;
+}
+
+div#titleContent{
+	float:none;
+	font-size:12px;
+	width:350px;
+}
+
+div#clientImpresion{
+	float:right;
+	width:200px;
+	height:100%;
+	/*background-color:#ffffff;*/
+	background-color:#CCCCCC;
+}
+
+div#ponudaUsluge{
+	width:180px;
+	height:239px;
+	background-image:url(Images/ponuda13.png);
+	float:left;
+	margin-left:10px;
+	margin-top:150px;
+}
+
+div#avanturaText, div#kulturaText{
+	color:#FFFFFF;
+	margin-left:60px;
+	margin-right:0px;
+	margin-top:70px;
+	margin-bottom:0px;	
+	display:block;
+	float:left;
+	font-size:17px;
+}
+
+div#viseAvanture{
+	margin-left:60px;
+	margin-right:0px;
+	margin-top:70px;
+	margin-bottom:0px;	
+	display:block;
+	float:left;
+	font-size:20px;
+}
+
+div#imeAvanture{
+	-webkit-transform: rotate(6deg); 
+	-moz-transform: rotate(6deg);	
+	display:block;
+	cursor:pointer;
+}
+
+div#viseAvanture{
+	-webkit-transform: rotate(6deg); 
+	-moz-transform: rotate(6deg);	
+	display:block;
+	cursor:pointer;
+}
+
+div#cijenaAvanture{
+	-webkit-transform: rotate(5deg); 
+	-moz-transform: rotate(5deg);	
+	display:block;
+	color:#acd373;
+	padding-left:0px;
+}
+
+div#josAvanture{
+	-webkit-transform: rotate(5deg); 
+	-moz-transform: rotate(5deg);	
+	display:block;
+	color:#acd373;
+	cursor:pointer;
+	padding-left:25px;
+}
+
+div#naseUsluge{
+	height:178px;
+	width:260px;
+	background-image:url(Images/naseUsluge2.png);
+	float:left;
+	margin-left:-60px;
+	margin-top:-10px;
+	position:absolute;
+}
+
+div#greyDelimiter{
+	float:right;
+	height:10px;
+	width:100%;
+	background-image:url(Images/greyDelimiter.png);
+	background-repeat:repeat-x;
+	margin-top:-10px;
+}
+
+div#contentBottom{
+	width:100%;
+	height:503px;
+	/*background-color:#CCCCCC;*/
+}
+
+div#leftContentBottom{
+	float:left;
+	height:100%;
+	width:250px;
+	background-color:#e1e1e1;	
+}
+
+div#blueStub{
+	float:left;
+	width:166px;
+	height:100%;
+	margin-bottom:-40px;	
+	background-color:#3d6588;
+}
+
+div#rightContentBottom{
+	float:right;
+	height:100%;
+	width:340px;	
+}
+
+img#sigurnostImg{
+	float:right;	
+}
+
+div#sigurnostTitle{
+	 float:right;	
+	 height:120px;
+	 width:340px;
+	 background-image:url(Images/sigurnostTitle3.png);
+	 margin-top:194px;
+}
+
+div#sigurnostText{
+	margin:5px;
+	float:right;
+	font-size:12px;	
+}
+
+div#prijavaTable1{
+	width:213px;
+	height:246px;
+	background-image:url(Images/prijavaTabaleN.png);
+	background-repeat:no-repeat;
+	margin-top:-40px;
+	margin-left:-10px;
+}
+
+div#prijavaTable2{
+	width:213px;
+	height:244px;
+	background-image:url(Images/prijavaTabale2N.png);
+	margin-top:-15px;
+	margin-left:-10px;
+}
+
+div#visePonuda{
+	float:right;	
+	width:59px;
+	height:370px;	
+}
+
+
+div#ponude{
+	float:right;
+	width:140px;
+}
+
+div#visePonuda1{
+	float:right;
+	width:35px;
+	height:35px;
+	background-image:url(Images/visePonuda2.png);
+	margin-top:50px;
+	margin-right:5px;
+	cursor:pointer;
+}
+
+div#visePonuda2{
+	float:right;
+	width:35px;
+	height:35px;
+	background-image:url(Images/visePonuda2.png);
+	margin-top:150px;
+	margin-right:5px;
+	cursor:pointer;
+}
+
+div#centarContentBottom{
+	float:left;
+	width:320px;
+	height:100%;	
+	margin-bottom:5px;
+	margin-left:0px;
+}
+
+div#posebnaPonuda1{
+	float:left;
+	height:166px;
+	width:128px;
+	margin-left:10px;
+	margin-top:15px;
+	border:3px solid #333333;
+}
+
+div#borderLeft1{
+	height:200px;
+	width:2px;
+	background-image:url(Images/posebnaPonudaBorder.jpg);
+	background-repeat:repeat-y;
+	float:left;
+}
+
+div#borderRight1{
+	height:200px;
+	width:2px;
+	background-image:url(Images/posebnaPonudaBorder.jpg);
+	background-repeat:repeat-y;
+	float:right;
+}
+
+div#podebnaPonuda1Header{
+	float:left;
+	height:23px;
+	width:128px;
+	background-image:url(Images/posebnaPonudaHeader2Blue.png);	
+}
+
+div#podebnaPonuda1Content{
+	float:left;
+	height:99px;
+	width:128px;	
+}
+
+div#podebnaPonuda1Footer{
+	float:left;
+	width:189px;	
+	
+}
+
+div#podebnaPonuda1FooterContent{
+	float:left;
+	width:128px;		
+	height:40px;
+}
+
+div#podebnaPonuda1FooterCornerContent{
+	width:193px;
+}
+
+div#posebnaPonuda1CornerLeft{
+	width:39px;
+	height:39px;
+	float:left;
+	background-image:url(Images/posebnaPonudaLeftCorner.png);
+	margin-left:-2px;
+}
+
+div#posebnaPonuda1Center{
+	height:36px;
+	width:115px;
+	margin-left:6px;
+}
+
+div#posebnaPonuda1BottomBorder{
+	float:left;
+	width:100%;
+	height:2px;
+	background-image:url(Images/posebnaPonudaBorderBottom.jpg);
+	margin-top:36px;
+}
+
+div#visePosebnihPonuda1{
+	float:left;
+	width:80px;
+	height:19px;
+	background-image:url(Images/visePosebnaPonuda2.png);
+	margin-left:25px;
+	margin-top:12px;	
+	cursor:pointer;
+}
+
+div#posebnaPonuda1CornerRight{
+	width:39px;
+	height:39px;
+	float:right;
+	background-image:url(Images/posebnaPonudaRightCorner.png);	
+	margin-right:2px;
+}
+
+div#borderLeft2{
+	height:200px;
+	width:2px;
+	background-image:url(Images/posebnaPonudaBorder.jpg);
+	background-repeat:repeat-y;
+	float:left;
+}
+
+div#borderRight2{
+	height:200px;
+	width:2px;
+	background-image:url(Images/posebnaPonudaBorder.jpg);
+	background-repeat:repeat-y;
+	float:right;
+}
+
+div#posebnaPonuda2{
+	float:left;
+	height:166px;
+	width:128px;
+	margin-left:10px;
+	margin-top:15px;
+	border:3px solid #333333;
+}
+
+div#podebnaPonuda2Header{
+	float:left;
+	height:23px;
+	width:128px;
+	background-image:url(Images/posebnaPonudaHeader2Blue.png);
+}
+
+div#podebnaPonuda2Content{	
+	float:left;
+	height:99px;
+	width:128px;	
+}
+
+div#posebnaPonuda2BottomBorder{
+	float:left;
+	width:100%;
+	height:2px;
+	background-image:url(Images/posebnaPonudaBorderBottom.jpg);
+	margin-top:36px;
+}
+
+div#podebnaPonuda2Footer{
+	float:left;
+	width:189px;	
+	
+}
+
+div#podebnaPonuda2FooterContent{
+	float:left;
+	/*width:189px;		*/
+	height:40px;
+	background-color:#CCCCCC;
+	
+}
+
+div#podebnaPonuda2FooterCornerContent{
+	width:128px;
+}
+
+div#posebnaPonuda2CornerLeft{
+	width:39px;
+	height:39px;
+	float:left;
+	background-image:url(Images/posebnaPonudaLeftCorner.png);
+	margin-left:-2px;
+}
+
+div#posebnaPonuda2Center{	
+	height:36px;
+	width:115px;	
+	margin-left:6px;
+}
+
+div#visePosebnihPonuda2{
+	float:left;
+	width:80px;
+	height:19px;
+	background-image:url(Images/visePosebnaPonuda2.png);
+	margin-left:25px;
+	margin-top:12px;
+	cursor:pointer;
+}
+
+div#posebnaPonuda2CornerRight{
+	width:39px;
+	height:39px;
+	float:right;
+	background-image:url(Images/posebnaPonudaRightCorner.png);	
+	margin-right:2px;
+}
+
+div#socialNetwork{
+	float:left;
+	width:285px;
+	padding-left:35px;
+}
+
+div#mainFooter{	
+	min-width:100%;
+	background-color:#363636;	
+	height:40px;		
+	float:left;
+}
+
+.jcarousel-clip{
+	background-color:#;
+}
+
+div.planAdventure{
+	float:left;
+	height:39px;
+	width:160px;	
+}
+
+div#planAdventure1{
+	margin-left:40px;
+	margin-top:45px;
+	background-image:url(Images/planAdventure.png);
+}
+
+div#prijavaForma1{
+	font-size:12px;
+	float:left;
+	margin-left:30px;	
+	width:150px;
+	margin-top:5px;
+}
+
+div#planAdventure2{
+	margin-left:60px;
+	margin-top:60px;
+	background-image:url(Images/ostalo.png);
+	height:14px;
+	width:70px;	
+	float:left;
+}
+
+div#prijavaForma2{
+	font-size:12px;
+	float:left;
+	margin-left:40px;	
+	width:150px;
+	margin-top:15px;
+}
+
+.forma{
+	width:150px;
+	border:none;
+}
+
+.formaCheck{
+	width:20px;
+	border:none;
+}
+
+div#formaButton{
+	float:left;
+	height:23px;
+	/*width:100px;
+	background-image:url(Images/trazi.png);*/
+	margin-left:10px;
+	margin-top:-70px;
+	cursor:pointer;	
+}
+
+div#sasa{
+	height:100%;
+	min-height:100%;
+	/*margin: auto 0;	*/
+}
+
+div#footerCenter{
+	margin:0 auto;
+	width:910px;
+}
+
+div#socialNetworks{
+	float:left;
+}
+
+div#adminLogin{
+	margin:30px;
+}
+
+div.areaLeft{
+	float:left;
+	margin-top:43px;
+	height:100%;
+}	
+
+div.areaRight{
+	float:right;
+	width:63%;
+}
+
+div.areaText{
+	color:#656565;
+	font-size:12px;			
+	margin:20px;
+	margin-top:10px;
+	float:left;	
+	width:95.5%;
+}
+
+div.titleText{
+	color:#000000;
+	font-size:30px;
+}
+
+div.contentText{
+	text-align:justify;
+}
+
+div.areaImg{
+	margin-bottom:10px;
+}
+
+div#adminAreaLink{
+	float:right;
+	font-size:11px;
+	cursor:pointer;
+}
+
+div#wrongLogin
+{
+	color:#FF0000;	
+}
+
+div#adminpanel{	
+	margin:20px;
+	margin-top:5px;
+}
+
+span#adminpanelBack{
+	color:#000000;
+}
+
+span.porukaAkcije{
+	font-size:16px;
+	color:#00CC33;
+}
+
+span#administracijaAvanturaBack{
+	color:#000000;
+}
+
+div.noviUnos{
+	color:#000000;
+	float:right;
+	font-size:20px;
+	cursor:pointer;	
+}
+
+div.noviUnos:hover{
+	text-decoration:underline;	
+}
+
+div.unosForme{
+	float:left;
+	margin:20px;
+	width:80%;	
+}
+
+div#adminpanelNaslov{
+	float:left;
+	font-size:30px;
+	width:100%;
+	margin-bottom:20px;
+}
+
+div#standardAdmin{
+	float:right;	
+}
+
+div#specialAdmin{
+	float:right;
+}
+
+div#serviceAdmin{
+	float:left;
+	margin-left:50px;
+}
+
+a.adminLinks:hover{
+	text-decoration:underline;
+}
+
+div#adminLogout{
+	float:right;	
+	color:#FF0000;
+	cursor:pointer;
+}
+
+span#opisAdmin{
+	font-size:12px;
+	float:right;
+	/*margin-top:15px;*/
+	color:#999999;
+}
+
+div.kontaktContent{
+	padding-top:15px;
+	padding-left:15px;	
+	font-size:18px;
+}
+
+img.help{
+	float:left;		
+	cursor:help;
+	margin-top:4px;
+}
+
+img.help1{	
+	margin-top:2px;
+}
+
+span.uslugaLink{
+	font-size:20px;
+	cursor:pointer;
+}
+
+div.prijavaInput{
+	float:left;
+	margin-top:2px;
+	font-size:15px;
+	color:#FF0000;
+}
+
+div.alignCenter{
+	margin-right:10px;
+}
+
+div#prijavaSubmit{
+	float:right;
+	margin-right:300px;
+	margin-top:50px;
+}
+
+div.loginMesssage{
+	margin-left:30px;
+	margin-top:20px;
+}
+
+div.itemList{
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+span.brisanje{
+	color:#FF0000;
+}
+
+span.brisanje:hover{
+	text-decoration:underline;
+}
+
+span.naslovi:hover{
+	text-decoration:underline;
+}
+
+div.areaOne{
+	float:left;
+	width:100%;
+	margin-top:10px;
+}
+
+div.listImg{
+	width:20%;
+	float:left;	
+}
+
+div.listNaslov{
+	float:left;
+	width:100%;
+	font-size:25px;
+}
+
+div.listText{
+	text-align:justify;	
+}
+
+span#spnAvantura:hover{
+	color:#1b77ed;
+	text-decoration:underline;
+}
+
+span#spnAvantura{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+span#spnKulturniTurizam:hover{
+	color:#1b77ed;
+	text-decoration:underline;
+}
+
+span#spnKulturniTurizam{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+span#spncityBreaks:hover{
+	color:#1b77ed;
+	text-decoration:underline;
+}
+
+span#spncityBreaks{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+span#spnSmjestaj:hover{
+	color:#1b77ed;
+	text-decoration:underline;
+}
+
+span#spnSmjestaj{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+span#spnRentacar:hover{
+	color:#1b77ed;
+	text-decoration:underline;
+}
+
+span#spnRentacar{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+span#spnCombinovano:hover{
+	color:#1b77ed;
+	text-decoration:underline;
+}
+
+span#spnCombinovano{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+span#spnPravilnik:hover{
+	color:#1b77ed;
+	text-decoration:underline;
+}
+
+span#spnPravilnik{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+span#spnNaslovna:hover{
+	text-decoration:underline;
+}
+
+span#spnNaslovna{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+span#spnOnama:hover{
+	text-decoration:underline;
+}
+
+span#spnOnama{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+span#spnKontakt:hover{
+	text-decoration:underline;
+}
+
+span#spnKontakt{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+span#spnPrijavise:hover{
+	text-decoration:underline;
+}
+
+span#spnPrijavise{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.inputButton{
+	height:31px;
+	width:135px;
+	color:#FFFFFF;
+	line-height:31px;
+	text-align:center;
+	font-weight:bold;
+	border:none;
+	cursor:pointer;
+	background:url(Images/buttons.gif);
+}
+
+span.lokacije{
+	margin-bottom:4px;
+}
+
+div.podNaslov{
+	padding-bottom:0px;
+	margin:0;
+	margin-top:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#42e2e8;
+	font-size:11px;
+	padding-top:0px;
+}
+
+div.mesInfo{
+margin:30px;
+font-size:18px;
+color:#000000;
+}
+
+tr#opisIshrana, tr#posebneZelje, tr#opisAlergije{
+	display:none;
+}
+
+div#languageIco{
+	width:50px;
+	height:16px;
+	float:left;
+	margin-top:45px;
+	margin-left:35px;
+}
+
+div.icoLang{
+	height:16px;
+	width:16px;
+	float:left;
+	cursor:pointer;
+}
+
+div#bos{
+	background-image:url(Images/icons/Bosnia-and-Herzegovina-Flag.png);
+}
+
+div#eng{
+	background-image:url(Images/icons/United-Kingdom-Flag.png);
+}
+
+div#ger{
+	background-image:url(Images/icons/Germany-Flag.png);
+}
+
+div.porukaKontakt{
+	margin:20px;
+	font-size:18px;
+}
+
+span.kategorije{
+	font-weight:bold;
+	font-size:14px;
+}
+
+div.uslugeLeft{
+	float:left;
+	min-width:170px;
+}
+
+div#mounain{
+	float:right;
+	background-image:url(Images/logonew.gif);
+	width:314px;
+	height:125px;
+	margin-top:-53px;
+	margin-right:-10px;
+	margin-left:-30px;
+	position:absolute;
+	left:407px;
+}
+
+div#moreImages{
+	float:left;
+	font-size:16px;
+	color:#000000;
+	padding-left:40px;
+}

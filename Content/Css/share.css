@@ -1,0 +1,96 @@
+button {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	background:#F6F6F6 none repeat scroll 0 0;
+	border:1px solid #CCCCCC;
+	cursor:pointer;
+	padding:5px;
+	height:2.0833em;
+	overflow:visible;
+	vertical-align:middle;
+	white-space:nowrap;
+}
+
+.share_button{background:url(../Images/share.png) center left no-repeat; padding-left:50px; }
+
+.facebook_button{background:url(../Images/facebook.png) center left no-repeat; padding-left:20px; float:left }
+
+.tooltip{ height:13px;display: none;width:150px; text-align:left;overflow:visible}
+
+.share_this{
+		display: none;
+		font-size: 1.0em;
+		height:17px;
+		padding:7px;
+		-moz-border-radius: 6px; 
+		-webkit-border-radius: 6px;
+		-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+		text-align: center;
+		text-decoration: none;
+		width:60px;
+		background-color:#333333;
+		color:#FFFFFF;
+		text-shadow: #fff 0px 0px 20px;
+	}
+
+#load_buttons_box{ 
+		border:solid #666666 1px; height:140px; 
+		margin-top:19px;-moz-border-radius: 6px;
+		display:none;
+		padding-left:30px;
+		-webkit-border-radius: 6px; width:500px;
+		position:absolute;
+		background-color:#FFFFFF;
+		/*z-index:-1;*/
+		overflow:visible;
+		}
+		
+.twitter_button{background:url(../Images/twitter.png) center left no-repeat; padding-left:20px; float:left; margin-left:4px;  }
+
+.buzz_button{background:url(../Images/buzz.png) center left no-repeat; padding-left:25px; float:left; margin-left:4px;  }
+
+.bebo_button{background:url(../Images/bebo.gif) center left no-repeat; padding-left:21px; float:left; margin-left:4px;  }
+
+.stumbleupon_button{background:url(../Images/stumbleupon.gif) center left no-repeat; padding-left:20px; float:left; margin-left:4px;  }
+
+.share_button:hover, .facebook_button:hover, .twitter_button:hover, .buzz_button:hover, .bebo_button:hover, .stumbleupon_button:hover{
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+		
+.mesgbox{
+	padding-left:25px;  
+	margin:5px;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; height:20px;  
+	width:427px; float:left}
+
+.close{ 
+	border:solid #666666 1px; 
+	float:left; 
+	width:20px; margin-top:6px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;  text-align:center; 
+	font-size:12px; cursor:pointer; 
+	background-color:0 1px 3px rgba(0,0,0,0.6);
+}
+
+.textBox{ 
+	background:url(ico.png) center left no-repeat;
+	height:22px;
+	width:300px;
+	padding-left:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+#shortLink{ 
+	margin-top:10px;
+	}
+.textBox label{ cursor:pointer;}
+
